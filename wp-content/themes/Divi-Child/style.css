@@ -1,0 +1,134 @@
+/*
+Theme Name: Divi Child
+Text Domain:Divi-Child
+Theme URI: http://www.elegantthemes.com/gallery/divi/
+Version: 3.22.7
+Template:Divi
+Description: Smart. Flexible. Beautiful. Divi is the most powerful theme in our collection.
+Author: Elegant Themes
+Author URI: http://www.elegantthemes.com
+Tags: responsive-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, featured-images, full-width-template, post-formats, rtl-language-support, theme-options, threaded-comments, translation-ready
+License: GNU General Public License v2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+body h1{
+    font-size: 80px;
+}
+
+body h2{
+    font-size: 40px;
+} 
+body p{
+    font-weight: 400;
+}
+
+
+.logo_container {
+    width: 15%;
+    float: left;
+}
+.select-category-search {
+    display: flex;
+    padding-top: 20px;
+}
+.location-header-bar {
+    display: flex;
+}
+.search-site{
+	display:flex;
+	border-bottom: 1px solid #e0e0e0;
+	margin-right: 45px;
+
+
+}
+.buttons {
+    display: flex;
+    padding: 0px 10px;
+}
+.search-bar {
+    max-height: 20px;
+    border-left: 1px solid #e0e0e0;
+    padding-left: 5px;
+}
+.search-icon {
+    padding-left: 250px;
+}
+
+select.row {
+    border: none;
+}
+.location-header-bar {
+    display: flex;
+}
+.address-inner{
+    display: flex;
+    border-bottom:1px solid #e0e0e0;
+
+}
+.location-address > form > select {
+    border: none;
+    padding-left: 10px;
+}
+.button-inner{
+    background: #007981;
+    color: #FFF;
+    font-size: 13px;
+    min-width: 80px;
+    padding: 3px 25px;
+    line-height: 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: inset 0 2px 0 0px rgba(255,255,255,0.4);
+    border: 2px solid #007981;
+    margin: 0px 5px;
+    font-weight: bold;
+    
+}
+.button-inner > a{
+    color:white;
+    text-decoration: none;
+}
+.logo-button {
+    display: flex;
+    border-radius: 40px;
+    background: #d4cf4e;
+    max-height: 41px;
+    padding-right: 17px;
+}
+.dasti-quote-inner > img{
+        width: 73px;
+        padding: 3px 0px 0px 11px;
+}
+.dasti-quote > p{
+    padding: 3px 0px 0px 7px;
+    font-size: 15px;
+    line-height: 31px;
+    color: #060703;
+    font-weight: bold;
+    font-family: "Euphemia UC AS";
+}
+.shopping-img{
+    padding: 6px 0px 0px 8px;
+}
+.search-icon img{
+	max-width:18px;
+}
+.location-image img{
+	max-width:18px;
+	padding-top: 5px;
+}
+
+span.pdt-img {
+    padding: 10px;
+    transition: 0.3s linear all;
+    background: #f3f3f3;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: 15px auto;
+}
