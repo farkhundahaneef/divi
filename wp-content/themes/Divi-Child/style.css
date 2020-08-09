@@ -132,3 +132,7 @@ span.pdt-img {
     border-radius: 100%;
     margin: 15px auto;
 }
+#main-content .woocommerce.columns-5 ul.products li.product{
+    width: 20% ;
+    margin: 0 10px;
+}
